@@ -11,4 +11,9 @@ It is recommended to use the [polyglot](https://github.com/sheerun/vim-polyglot)
 colorscheme aperture
 ```
 
-3.) Done!
+3.) Make sure you have syntax processing enabled in your .vimrc with 
+```
+syntax enable
+```
+
+4.) Done!
