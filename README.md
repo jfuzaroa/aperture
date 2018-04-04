@@ -1,5 +1,5 @@
 # Aperture Color Scheme for Vim
-Aperture is a colorscheme for vim with emphasis on blue. <br />
+Aperture is a vim colorscheme that is easy on the eyes. <br />
 It is recommended to use the [polyglot](https://github.com/sheerun/vim-polyglot) plugin for enhanced syntax highlighting. <br /> <br />
 ![Screenshot](Aperture.png)
 
