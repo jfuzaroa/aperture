@@ -11,6 +11,7 @@ if exists("syntax on")
 endif
 
 let g:colors_name = "aperture"
+let c_no_curly_error = 1
 
 " ======= Syntax Groups =======
 "	 *Comment		any comment
