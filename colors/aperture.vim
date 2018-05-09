@@ -61,12 +61,12 @@ let c_no_curly_error = 1
 "	 *Todo			anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 " ======= Syntax Groups =======
 
-hi Normal			ctermfg=251		ctermbg=236		cterm=none
+hi Normal			ctermfg=253		ctermbg=236		cterm=none
 
 hi Comment			ctermfg=246		ctermbg=none	cterm=none
 hi Conceal			ctermfg=230		ctermbg=236		cterm=none
 hi CommentURL		ctermfg=230		ctermbg=236		cterm=underline
-hi SpecialComment	ctermfg=246		ctermbg=none	cterm=none
+hi SpecialComment	ctermfg=246		ctermbg=none	cterm=italic
 
 hi Constant			ctermfg=051		ctermbg=none	cterm=none
 hi String			ctermfg=071		ctermbg=none	cterm=none
@@ -75,8 +75,12 @@ hi Number			ctermfg=044		ctermbg=none	cterm=none
 hi Boolean			ctermfg=135		ctermbg=none	cterm=none
 hi Float			ctermfg=044		ctermbg=none	cterm=none
 
-hi Identifier		ctermfg=214		ctermbg=none	cterm=none
+hi Identifier		ctermfg=047		ctermbg=none	cterm=none
 hi Function			ctermfg=081		ctermbg=none	cterm=bold
+hi Variable			ctermfg=253		ctermbg=none	cterm=none
+hi Member			ctermfg=048		ctermbg=none	cterm=none
+hi NameSpace		ctermfg=013		ctermbg=none	cterm=none
+hi EnumConstant		ctermfg=042		ctermbg=none	cterm=none
 
 hi Statement		ctermfg=039		ctermbg=none	cterm=bold
 hi Conditional		ctermfg=039		ctermbg=none	cterm=bold
