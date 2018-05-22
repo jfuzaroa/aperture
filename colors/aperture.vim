@@ -61,25 +61,25 @@ let c_no_curly_error = 1
 "	 *Todo			anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 " ======= Syntax Groups =======
 
-hi Normal			ctermfg=253		ctermbg=236		cterm=none
+hi Normal			ctermfg=255		ctermbg=236		cterm=none
 
-hi Comment			ctermfg=246		ctermbg=none	cterm=none
+hi Comment			ctermfg=247		ctermbg=none	cterm=none
 hi Conceal			ctermfg=230		ctermbg=236		cterm=none
-hi CommentURL		ctermfg=230		ctermbg=236		cterm=underline
+hi CommentURL		ctermfg=230		ctermbg=236		cterm=italic,underline
 hi SpecialComment	ctermfg=246		ctermbg=none	cterm=italic
 
-hi Constant			ctermfg=051		ctermbg=none	cterm=none
-hi String			ctermfg=071		ctermbg=none	cterm=none
-hi Character		ctermfg=078		ctermbg=none	cterm=none
-hi Number			ctermfg=044		ctermbg=none	cterm=none
-hi Boolean			ctermfg=135		ctermbg=none	cterm=none
-hi Float			ctermfg=044		ctermbg=none	cterm=none
+hi Constant			ctermfg=165		ctermbg=none	cterm=none
+hi String			ctermfg=077		ctermbg=none	cterm=none
+hi Character		ctermfg=084		ctermbg=none	cterm=none
+hi Number			ctermfg=203		ctermbg=none	cterm=none
+hi Boolean			ctermfg=097		ctermbg=none	cterm=bold
+hi Float			ctermfg=203		ctermbg=none	cterm=none
 
-hi Identifier		ctermfg=047		ctermbg=none	cterm=none
-hi Function			ctermfg=081		ctermbg=none	cterm=bold
-hi Variable			ctermfg=253		ctermbg=none	cterm=none
-hi Member			ctermfg=048		ctermbg=none	cterm=none
-hi NameSpace		ctermfg=013		ctermbg=none	cterm=none
+hi Identifier		ctermfg=051		ctermbg=none	cterm=none
+hi Function			ctermfg=051		ctermbg=none	cterm=none
+hi Variable			ctermfg=255		ctermbg=none	cterm=none
+hi Member			ctermfg=074		ctermbg=none	cterm=none
+hi NameSpace		ctermfg=214		ctermbg=none	cterm=none
 hi EnumConstant		ctermfg=042		ctermbg=none	cterm=none
 
 hi Statement		ctermfg=039		ctermbg=none	cterm=bold
@@ -92,26 +92,26 @@ hi Exception		ctermfg=039		ctermbg=none	cterm=bold
 
 hi PreProc			ctermfg=086		ctermbg=none	cterm=none
 hi Include			ctermfg=086		ctermbg=none	cterm=none
-hi Define			ctermfg=045		ctermbg=none	cterm=none
-hi Macro			ctermfg=045		ctermbg=none	cterm=none
-hi Precondit		ctermfg=045		ctermbg=none	cterm=none
+hi Macro			ctermfg=044		ctermbg=none	cterm=none
+" hi Define			ctermfg=044		ctermbg=none	cterm=none (same as Macro)
+hi PreCondit		ctermfg=039		ctermbg=none	cterm=bold
 
-hi Type				ctermfg=214		ctermbg=none	cterm=none
-hi CustomType		ctermfg=116		ctermbg=none	cterm=none
-hi CustomIO			ctermfg=211		ctermbg=none	cterm=none
-hi StorageClass		ctermfg=214		ctermbg=none	cterm=none
-hi Structure		ctermfg=214		ctermbg=none	cterm=none
+hi Type				ctermfg=214		ctermbg=none	cterm=bold
+hi CustomType		ctermfg=214		ctermbg=none	cterm=bold
+hi CustomIO			ctermfg=214		ctermbg=none	cterm=bold
+hi StorageClass		ctermfg=214		ctermbg=none	cterm=bold
+hi Structure		ctermfg=214		ctermbg=none	cterm=bold
 hi Typedef			ctermfg=214		ctermbg=none	cterm=bold
 
 hi Special			ctermfg=203		ctermbg=none	cterm=none
-hi SpecialChar		ctermfg=203		ctermbg=none	cterm=bold
+hi SpecialChar		ctermfg=203		ctermbg=none	cterm=none
 hi Tag				ctermfg=203		ctermbg=none	cterm=none
 hi Delimiter		ctermfg=203		ctermbg=none	cterm=none
 hi Debug			ctermfg=146		ctermbg=none	cterm=bold
 
-hi Todo				ctermfg=011		ctermbg=none	cterm=bold
+hi Todo				ctermfg=011		ctermbg=none	cterm=bold,italic
 
-hi Error			ctermfg=196		ctermbg=236		cterm=bold
+hi Error			ctermfg=196		ctermbg=239		cterm=bold
 
 hi Ignore			ctermfg=none	ctermbg=none	cterm=none
 hi StatusLine		ctermfg=015		ctermbg=000		cterm=none
